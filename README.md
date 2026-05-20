@@ -28,8 +28,8 @@ Unlike standard convolution filters that apply blindly to the entire image, this
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/context-aware-dsp.git
-   cd context-aware-dsp
+   git clone https://github.com/cristibutica/ai-video-compositor.git
+   cd ai-video-compositor
    ```
 
 2. **Create a virtual environment:**
@@ -44,7 +44,7 @@ Unlike standard convolution filters that apply blindly to the entire image, this
    > **Note:** We strictly use MediaPipe version `0.10.14` to retain access to the legacy solutions API.
 
    ```bash
-   pip install opencv-python numpy PyQt6 mediapipe==0.10.14
+   pip install -r requirements.txt
    ```
 
 ## Usage
